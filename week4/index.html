@@ -205,6 +205,8 @@
           <script>
             console.log("=========== 3.2 ===========");
             const worstParagraph = document.getElementById("3.2-act");
+            worstParagraph.innerHTML = "ACM Cyber is the best!"
+            worstParagraph.style = "color: green"
           </script>
         </article>
       </article>
@@ -229,6 +231,8 @@
             console.log("=========== 3.3 ===========");
 
             const listElement = document.getElementById("3.3-act");
+            listElement.firstElementChild.remove();
+            listElement.firstElementChild.remove();
             // Note that you will need to access the child element first!
           </script>
         </article>
